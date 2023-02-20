@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Position</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <style>
+      p {
+        margin: 0;
+        padding: 30px;
+        max-width: 80px;
+        display: inline-block;
+        border-width: 20px;
+        border-style: inset;
+        border-radius: 50%;
+        position: relative;
+      }
+
+      .t20-r30 {
+        bottom: -222px;
+        right: 95px;
+        border-color: blue;
+      }
+
+      .t40-l10 {
+        top: -20px;
+        left:65px;
+        border-color: black;
+      }
+
+      .b15-l30 {
+        bottom: 20px;
+        left: 10px;
+        border-color: rgb(4, 3, 44);
+      }
+
+      .b25-r20 {
+        bottom: -280px;
+        right: 90px;
+        border-color:rgb(19, 72, 133);
+      }
+
+      .color1 {
+        color: black;
+      }
+      .color2 {
+        color: blue;
+      }
+      .color3 {
+        color: skyblue;
+      }
+      .color4 {
+        color: turquoise;
+      }
+      .solid-text-shadow {
+        text-shadow: 3px 3px Black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="t40-l10 color2">black</p>
+    <p class="t40-l10 color1">blue</p>
+    <p class="b25-r20 color4">black</p>
+    <p class="t20-r30 color3">blue</p>
+    <p class="b15-l30 color4">black</p>
+    <p class="t20-r30 color2">blue</p>
+    <p class="b25-r20 color3">black</p>
+    <p class="t40-l10 color1">black</p>
+    <p class="t40-l10 color3">blue</p>
+    <p class="t20-r30 color1">blue</p>
+    <p class="b15-l30 color4">O</p>
+    <p class="b25-r20 color2">O</p>
+    <p class="b15-l30 color4">black</p>
+    <p class="t40-l10 color3">0</p>
+    <p class="t20-r30 color1">0</p>
+    <p class="b25-r20 color2">blue</p>
+    <p class="b15-l30 color2">O</p>
+  </body>
+</html>
